@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+	<head th:replace="~{fragments/head :: home-head}" th:with="pageTitle='Elcabel'">
+		<title>Power Cable Manufacture</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body>
+		<nav th:replace="~{fragments/navigation :: home-navbar}"></nav>
+
+		<!--<header th:replace="~{fragments/carousel :: home-carousel}"></header>-->
+		<header th:replace="~{fragments/carousel :: home-logo}"></header>
+
+		<div th:replace="~{fragments/content :: home-content}" ></div>
+
+		<script src="../static/js/jquery.js" th:src="@{/js/jquery.js}"></script>
+		<script src="../static/js/bootstrap.min.js" th:src="@{/js/bootstrap.min.js}"></script>
+		<!-- Script to Activate the Carousel -->
+	<!--	<script>
+			$(document).ready(function () {
+				$('.carousel').carousel({
+					interval: 10000 //changes the speed
+				});
+			});
+
+		</script> -->
+	</body>
+</html>

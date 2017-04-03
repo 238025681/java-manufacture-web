@@ -1,0 +1,214 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+
+.carousel-control{
+	width: 0%;
+	color: #038FE2;
+}
+
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #038FE2 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+
+	color: #fff !important;
+}
+.navbar-nav>li>.dropdown-menu {
+	color: #fff !important;
+	background-color: #038FE2 !important;
+}
+.navbar {
+    margin-bottom: 0;
+    background-color:  #038FE2;
+    z-index: 9999;
+    border: 0;
+    font-size: 14px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 2px;
+    border-radius: 0;
+}
+
+.hood {
+	/*	width:100%;
+		height:290px;
+		background-image:url('../img/hood.png');
+		background-size:cover;
+		-webkit-filter: blur(1px) grayscale(10%);*/
+	position: relative;
+	background: #000 url('../img/hood.png') center center;
+	width: 100%;
+	height: 290px;
+	background-size: cover;
+	overflow: hidden;
+	-webkit-filter: opacity(60%); /* Safari */
+	filter: opacity(60%);
+}
+
+.logo-title{
+    padding-top: 5px;
+
+}
+.logo-title>img{
+	border-radius: 50%;
+}
+.carousel>ol.featured{
+
+    margin-bottom: 0px;
+    bottom: 0px;
+
+}
+
+.well-featured{
+	min-height: 20px;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.carousel-indicators li{
+	background-color: #038FE2;
+	border: 1px solid #000;
+}
+hr.style18 { 
+	height: 30px; 
+	border-style: solid; 
+	border-color: #8c8b8b; 
+	border-width: 1px 0 0 0; 
+	border-radius: 20px; 
+} 
+hr.style18:before { 
+	display: block; 
+	content: ""; 
+	height: 30px; 
+	margin-top: -31px; 
+	border-style: solid; 
+	border-color: #8c8b8b; 
+	border-width: 0 0 1px 0; 
+	border-radius: 20px; 
+}
+
+.h2-color{
+	color: #038FE2;
+}
+
+.logo {
+	font-size: 200px;
+	color: #038FE2;
+	font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 60%;
+    height: 60%;
+    margin-bottom: 10px;
+}
